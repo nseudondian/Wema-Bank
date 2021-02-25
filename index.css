@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    color: #3E3A40;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 25px;
+    animation: fade-in 10s
+}
+.nav-h3{
+    color: #BD08A2;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    animation: fade-in 10s
+}
+.nav-button{
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #7F2472;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 20px;
+    animation: fade-in 5s
+}
+.nav-button:hover{
+    background-color: #EFC2E7;
+    color: #5e0a68;
+    transition: 2s;
+}
+#banner{
+   animation: slidein 5s;
+}
+
+.para1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #9F1F66;
+    line-height: 60px;
+    animation: slidein 5s;
+}
+.para2{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #954A9D;
+    margin-top: 30px;
+    animation: slidein 5s;
+}
+.banner-button{
+    border-radius: 50px;
+    color: #5A0084;
+    background-color: #EFC2E7;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 35px;
+    transition: 3s;
+}
+.banner-button:hover{
+    background-color: #5e0a68;
+    color: #ffffff;
+}
+.banner-img{
+    margin-top: -80px;
+    margin-left: 80px;
+}
+#banner2, .banner2-img{
+    margin-top: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#banner2 h4{
+    display: inline-block;   
+    
+}
+#banner2 h4{
+    font-weight: bold;
+    font-size: 36px;
+    color: #3E3A40;
+    margin-top: 5px;
+}
+
+#banner2 p{
+    font-size: 18px;
+    color: #3E3A40;
+    display: inline-block;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: -50px;
+    letter-spacing: 1px;
+}
+
+#banner2 div{
+    font-size: 18px;
+    color: #954A9D;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 150px;
+    
+}
+.banner2-img{
+    margin-left: 150px;
+    margin-top: 60px;
+    animation: slidein 5s;
+}
+.banner2-img:hover{
+    cursor: pointer;
+}
+.banner2-icon:hover{
+    cursor: pointer;
+    transform: translateY(50%) ;
+}
+
+#banner3, .banner3-img{
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+#banner3 h4{
+    display: inline-block;   
+    
+}
+#banner3 h4{
+    font-weight: bold;
+    font-size: 36px;
+    color: #3E3A40;
+    margin-top: 20px;
+}
+
+#banner3 p{
+    font-size: 18px;
+    color: #3E3A40;
+    display: inline-block;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: -50px;
+    letter-spacing: 1px;
+}
+
+.banner3-img{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.banner3-img:hover{
+    cursor: pointer;
+}
+#banner3 div{
+    font-size: 18px;
+    color: #954A9D;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 150px;
+}
+#card{
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+}
+#card2{
+    margin-top: -50px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+#card2 .card{
+    margin-top: 200px;
+}
+.card{
+    background-color: #954A9D;
+    border-radius: 16px;
+    border: none;
+    height: 300px;
+    padding: 30px;
+    margin-top: 250px;
+    /* transition: ease-in;
+    transition-duration: 1s; */
+    
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #5e0a68;
+}
+.card-title{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.card-text{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.card-text:hover{
+    color: #954A9D;
+}
+.text{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #5A0084
+}
+#footer{
+    padding: 120px;
+}
+#footer h5{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    animation: fade-in 4s;
+}
+#footer h5:hover{
+    cursor: pointer;
+    color: #5A0084;
+    font-size: 22px;
+}
+#footer p{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#footer p:hover{
+    font-size: 20px;
+    color: #5A0084;
+    cursor: pointer;
+}
+
+
+
+#mobile-header{
+    margin-top: -100px;
+    
+}
+#mobile-header .container{
+    display: inline-block;
+}
+.nav-mobile{
+    margin-left: 80px;
+    margin-top: 1rem;
+    color: #BD08A2;
+}
+.mobile-logo{
+    margin-left: 10px;
+}
+
+#mobile-banner .para1{
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bolder;
+    line-height: 25px;
+    margin-top: 1rem;
+}
+#mobile-banner .para2{
+    font-size: 14px;
+    margin-left: 10px; 
+}
+
+#mobile-banner .banner-button{
+    padding: 12px 15px 12px 15px;
+    font-size: 8px;
+    margin-left: 10px;
+}
+
+#mobile-banner2, .banner2-img{
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;    
+}
+#mobile-banner2 h4{
+    display: inline-block;     
+}
+#mobile-banner2 h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: #3E3A40;
+    margin-top: 5px;
+}
+
+#mobile-banner2 p{
+    font-size: 10px;
+    color: #3E3A40;
+    display: inline-block;
+    width: 90%;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+#mobile-banner2 div{
+    font-size: 10px;
+    color: #954A9D;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+    
+}
+#mobile-banner2 .banner2-img{
+    margin-left: 2rem;
+    margin-top: 50px;
+    /* animation: slidein 5s; */
+}
+#mobile-banner2 .banner2-img:hover{
+    cursor: pointer;
+}
+#mobile-banner2 .banner2-icon:hover{
+    cursor: pointer;
+    /* transform: translateY(50%) ; */
+}
+
+#mobile-card{
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 70px;
+    margin-top: 30px;
+}
+
+#mobile-card .card{
+    background-color: #954A9D;
+    border-radius: 10px;
+    border: none;
+    height: 250px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 20px;    
+}
+#mobile-card .card:hover{
+    cursor: pointer;
+    background-color: #5e0a68;
+}
+#mobile-card .card-title{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#mobile-card .card-text{
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+#mobile-card .card-text:hover{
+    color: #954A9D;
+}
+#mobile-card .text{
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: bold;
+    border-bottom: 1px solid #5A0084
+}
+
+
+#mobile-card2{
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 70px;
+    margin-top: 400px;
+    margin-right: -30px;
+}
+
+#mobile-card2 .card{
+    background-color: #954A9D;
+    border-radius: 10px;
+    border: none;
+    height: 250px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+#mobile-card2 .card:hover{
+    cursor: pointer;
+    background-color: #5e0a68;
+}
+#mobile-card2 .card-title{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#mobile-card2 .card-text{
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+#mobile-card2 .card-text:hover{
+    color: #954A9D;
+}
+#mobile-card2 .text{
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: bold;
+    border-bottom: 1px solid #5A0084
+}
+
+#mobile-footer{
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+#mobile-footer h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    animation: fade-in 4s;
+}
+#mobile-footer h5:hover{
+    cursor: pointer;
+    color: #5A0084;
+    font-size: 22px;
+    overflow: hidden;
+}
+#mobile-footer p{
+    font-size: 10px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#mobile-footer p:hover{
+    font-size: 15px;
+    color: #5A0084;
+    cursor: pointer;
+}
+
+#mobile-footer .col-5{
+    margin-top: 50px;
+}
+
+#mobile-footer .col-2{
+    margin-top: 50px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+.nav-mobile{
+    padding: 12px 15px 12px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7F2472;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
